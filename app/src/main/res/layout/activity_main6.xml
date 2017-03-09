@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.leiyu.survey.Main6Activity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="\nDo you like the following sports?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.10"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:layout_weight="0.05"
+            android:textSize="18sp"
+            android:text="Basketball" />
+
+        <CheckBox
+            android:text="Swimming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:layout_weight="0.05"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary" />
+
+        <CheckBox
+            android:text="football"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3"
+            android:layout_weight="0.04"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <CheckBox
+            android:text="Running"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4"
+            android:layout_weight="0.04"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_red_light" />
+
+        <CheckBox
+            android:text="Badminton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox5"
+            android:layout_weight="0.05"
+            android:textSize="18sp"
+            android:textColor="?android:attr/colorPressedHighlight" />
+
+        <CheckBox
+            android:text="Tennis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox6"
+            android:layout_weight="0.05"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="next->"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:layout_weight="0.10"
+            android:textSize="24sp"
+            android:textColor="@android:color/background_light"
+            android:background="@android:color/holo_blue_bright" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

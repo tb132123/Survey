@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.leiyu.survey.Main9Activity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="57dp"
+            android:id="@+id/toolbar5"
+            android:elevation="0dp" />
+
+        <TextView
+            android:text="\nWhat kind of operating system do you prefer?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_weight="0.07"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_weight="0.08"
+            android:id="@+id/group2"
+            >
+
+            <RadioButton
+                android:text="Windows"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton8"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="?attr/colorAccent" />
+
+            <RadioButton
+                android:text="MacOsX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton7"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:text="Linux"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:id="@+id/radioButton10"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <RadioButton
+                android:text="Android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton9"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary" />
+
+        </RadioGroup>
+
+        <Button
+            android:text="next->"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:layout_weight="0.11"
+            android:textSize="24sp"
+            android:textColor="@android:color/background_light"
+            android:background="@android:color/holo_blue_bright" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
